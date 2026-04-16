@@ -26,7 +26,7 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-const FORM_URL = "https://forms.google.com";
+const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSc5JE9-ndT6zowyRgmCuXEISmA0bsfcQQ3wYtIMZ1XPrzjHOw/viewform";
 
 function CTAButton({ label = "QUERO PARTICIPAR" }: { label?: string }) {
   return (
