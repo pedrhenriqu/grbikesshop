@@ -49,7 +49,7 @@ function Index() {
         <img
           src={logo}
           alt="GR Bike Shop & Service"
-          className="h-44 w-44 object-contain drop-shadow-[0_8px_30px_rgba(245,207,47,0.35)]"
+          className="h-44 w-44 rounded-full object-cover drop-shadow-[0_8px_30px_rgba(245,207,47,0.35)]"
         />
 
         {/* Headline */}
