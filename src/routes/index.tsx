@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { MessageCircle } from "lucide-react";
+
 import logo from "@/assets/gr-bike-logo.png";
 
 const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=556493346073&text&type=phone_number&app_absent=0";
