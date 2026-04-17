@@ -1,5 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { MessageCircle } from "lucide-react";
 import logo from "@/assets/gr-bike-logo.png";
+
+const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=556493346073&text&type=phone_number&app_absent=0";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -146,6 +149,16 @@ function Index() {
           © {new Date().getFullYear()} GR Bike — Shop &amp; Service
         </footer>
       </main>
+
+      <a
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Fale conosco no WhatsApp"
+        className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_8px_30px_-4px_rgba(37,211,102,0.6)] transition-transform hover:scale-110 active:scale-95"
+      >
+        <MessageCircle className="h-7 w-7" fill="currentColor" />
+      </a>
     </div>
   );
 }
